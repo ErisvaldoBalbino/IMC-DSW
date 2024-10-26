@@ -1,0 +1,11 @@
+main {
+    .btn {
+        background-color: #d41924;
+        color: white;
+    }
+
+    .btn:hover {
+        background-color: #d41924;
+        color: white;
+    }
+}

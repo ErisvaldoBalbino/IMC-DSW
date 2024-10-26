@@ -1,0 +1,16 @@
+{% extends 'core/base.html' %}
+{% load static %}
+
+{% block css %}
+<link rel="stylesheet" href="{% static 'css/styles.css' %}">
+{% endblock %}
+
+{% block main %}
+
+<div class="d-flex flex-column justify-content-center align-items-center">
+    <h1>Cuide da sua saúde!</h1>
+    <p>A manutenção de um estilo de vida saudável, com alimentação balanceada, exercícios físicos regulares e visitas médicas periódicas, pode ajudar a prevenir doenças crônicas, fortalecer nosso sistema imunológico e proporcionar uma vida mais longa e saudável.</p>
+    <a class="btn fw-medium" href="{% url 'index-imc' %}">Calcule seu IMC</a>
+</div>
+
+{% endblock %}

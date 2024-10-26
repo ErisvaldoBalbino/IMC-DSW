@@ -1,0 +1,31 @@
+h1 {
+    text-align: center;
+}
+
+#resultado {
+    text-align: center;
+    font-size: 35px;
+}
+
+#classificacao {
+    text-align: center;
+    font-size: 25px;
+}
+
+.btn {
+    background-color: #d41924;
+    color: white;
+    border-color: #d41924;
+}
+
+.btn:hover {
+    background-color: #d41924;
+    color: white;
+    border-color: #d41924;
+}
+
+#lista {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
